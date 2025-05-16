@@ -1,0 +1,17 @@
+function doPost(e) {
+  try {
+    var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+    
+    // Dados recebidos no corpo do POST
+    var data = JSON.parse(e.postData.contents);
+    
+    // Adiciona uma nova linha na planilha com os dados recebidos
+    sheet.appendRow([data.uid, data.modelo, data.placa, data.localizacao, data.status, new Date(data.timestamp)]);
+    
+    // Retorna uma resposta com status de sucesso
+    return ContentService.createTextOutput("Success").setMimeType(ContentService.MimeType.TEXT);
+  } catch (error) {
+    // Caso ocorra um erro, retorna uma resposta de erro
+    return ContentService.createTextOutput("Error: " + error.message).setMimeType(ContentService.MimeType.TEXT);
+  }
+}
