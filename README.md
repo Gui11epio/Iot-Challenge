@@ -24,8 +24,9 @@
     - Depois de colar aperte em 'Implementar':
     ![Captura de tela 2025-05-16 110311](https://github.com/user-attachments/assets/dc83ef3b-3740-409b-8d99-eec16f5950d4)
     
-   - Depois em 'Nova Implementação' e é muito IMPORTANTE deixar a opção 'Quem pode acessar' em 'Qualquer pessoa com a conta do Google':
-        ![Captura de tela 2025-05-16 104014](https://github.com/user-attachments/assets/47f23021-6222-4e24-9bc6-6b4fb3370e1e)
+   - Depois em 'Nova Implementação' e é muito IMPORTANTE deixar a opção 'Quem pode acessar' em 'Qualquer pessoa':
+        ![image](https://github.com/user-attachments/assets/16f6980c-4850-4aa1-b2b5-dc0f18b98c2c)
+
 
 #COMO USAR O CODIGO(Ler)
 - É basicamente o mesmo processo mas com os arquivos para ler
