@@ -37,3 +37,4 @@ Nome: Pedro Manzo Yokoo/ rm:556115
       
 *PARA PODER VER AS INFORMAÇÕES DO RFID É SÓ ACESSAR O spreadsheets(https://docs.google.com/spreadsheets)
 e coloque esse nome na planilha 'Acesso RFID':
+![image](https://github.com/user-attachments/assets/9c7f663b-ddf4-4f78-89a3-262c536f5648)
