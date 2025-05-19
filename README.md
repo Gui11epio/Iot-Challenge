@@ -36,3 +36,4 @@ Nome: Pedro Manzo Yokoo/ rm:556115
     - No appScript cole o codigo para ler(Ler_inform_appScript.txt) e depois é só implementar
       
 *PARA PODER VER AS INFORMAÇÕES DO RFID É SÓ ACESSAR O spreadsheets(https://docs.google.com/spreadsheets)
+e coloque esse nome na planilha 'Acesso RFID':
