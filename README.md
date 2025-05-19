@@ -1,5 +1,7 @@
 Nome: Pedro Manzo Yokoo/ rm:556115
 
+Nome: Fernando Fernandes Prado/ rm:557982
+
 Nome: Guilherme Camasmie Laiber de Jesus/ rm:554894
 # Iot-Challenge
 
