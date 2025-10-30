@@ -1,56 +1,84 @@
-Nome: Pedro Manzo Yokoo/ rm:556115
+# 🛰️ IoT Challenge
 
-Nome: Fernando Fernandes Prado/ rm:557982
+### 👥 Integrantes
+| Nome | RM |
+|------|----|
+| **Pedro Manzo Yokoo** | 556115 |
+| **Fernando Fernandes Prado** | 557982 |
+| **Guilherme Camasmie Laiber de Jesus** | 554894 |
 
-Nome: Guilherme Camasmie Laiber de Jesus/ rm:554894
-# Iot-Challenge
+---
 
-=COMO MONTAR O IOT=
+## ⚙️ Como Montar o IoT
 
-<img width="779" height="671" alt="Captura de tela 2025-09-18 114320" src="https://github.com/user-attachments/assets/0fa9849e-7f23-4e1c-a041-0a8c3ebf2045" />
+<p align="center">
+  <img width="779" height="671" alt="Montagem do IoT" src="https://github.com/user-attachments/assets/0fa9849e-7f23-4e1c-a041-0a8c3ebf2045" />
+</p>
 
-![WhatsApp Image 2025-09-19 at 08 05 03](https://github.com/user-attachments/assets/ba3e63e0-8132-4992-b529-07a9696fbbbf)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ba3e63e0-8132-4992-b529-07a9696fbbbf" width="400">
+  <img src="https://github.com/user-attachments/assets/1681b516-4f09-47b7-8e7e-b16d29146f59" width="400">
+</p>
 
-![WhatsApp Image 2025-09-19 at 08 05 03 (1)](https://github.com/user-attachments/assets/1681b516-4f09-47b7-8e7e-b16d29146f59)
+---
 
-=COMO USAR O CODIGO
+## 💻 Como Usar o Código
 
-  ===ARDUINO IDE====
+### 🔹 1. Configuração no **Arduino IDE**
 
-=1 Abra a ide do arduino e abra o arquivo do arduino
+1. Abra a **IDE do Arduino**.
+2. Vá em **File → Open** e selecione o arquivo `.ino` do projeto.
+   
+   ![Abrindo o arquivo](https://github.com/user-attachments/assets/7d4895f4-ee8a-44d5-9289-3b2daae4fec5)
 
-- Em 'file' e depois 'open' e selecione o arquivo:
-  
-![Captura de tela 2025-05-16 105523](https://github.com/user-attachments/assets/7d4895f4-ee8a-44d5-9289-3b2daae4fec5)
+3. Selecione a **placa correta**:
+   - Vá em **Tools → Board → ESP32 Arduino → ESP32 Dev Module**.
 
-- E selecione qual é o IOT nesse caso o esp32, selecione o (DevModule):
-- 
-<img width="284" height="32" alt="image" src="https://github.com/user-attachments/assets/a9c708e6-700a-4085-807a-7529f3c25dd0" />
+   <img width="284" height="32" alt="Selecionando ESP32" src="https://github.com/user-attachments/assets/a9c708e6-700a-4085-807a-7529f3c25dd0" />
 
+4. Clique em **Upload** para enviar o código para o dispositivo.
 
-- E depois é só rodar o codigo em 'Upload':
-  
-![Captura de tela 2025-05-16 112715](https://github.com/user-attachments/assets/f95c256b-a223-40c8-9644-536dfdfa06dc)
+   ![Upload do código](https://github.com/user-attachments/assets/f95c256b-a223-40c8-9644-536dfdfa06dc)
 
+---
 
-=2 Abra o spreadsheets(https://docs.google.com/spreadsheets) e crie uma nova planilha coloque esse nome na planilha 'Acesso RFID':
-![image](https://github.com/user-attachments/assets/9c7f663b-ddf4-4f78-89a3-262c536f5648)
+### 🔹 2. Configuração do **Google Sheets**
 
-  - Depois vá em extensões e appScript:
+1. Acesse [Google Spreadsheets](https://docs.google.com/spreadsheets) e crie uma nova planilha.
+2. Renomeie-a para **“Acesso RFID”**.
 
-<img width="397" height="266" alt="image" src="https://github.com/user-attachments/assets/d299d3e3-325e-4a97-83f2-f953f532e511" />
+   ![Nova planilha](https://github.com/user-attachments/assets/9c7f663b-ddf4-4f78-89a3-262c536f5648)
 
-  
-  - -Agora coloque o codigo do txt
+3. Vá em **Extensões → App Script**.
 
+   <img width="397" height="266" alt="Acessando o App Script" src="https://github.com/user-attachments/assets/d299d3e3-325e-4a97-83f2-f953f532e511" />
 
-   - Depois em 'Nova Implementação' e é muito IMPORTANTE deixar a opção 'Quem pode acessar' em 'Qualquer pessoa':
-        ![image](https://github.com/user-attachments/assets/16f6980c-4850-4aa1-b2b5-dc0f18b98c2c)
+4. Cole o **código do arquivo .txt** fornecido no editor do App Script.
 
+5. Clique em **Nova Implementação** e configure:
+   - **Quem pode acessar** → `Qualquer pessoa`.
 
-==Agora é só usar o projeto==
+   ![Configuração da implementação](https://github.com/user-attachments/assets/16f6980c-4850-4aa1-b2b5-dc0f18b98c2c)
 
-PARA PODER MOSTRAR UM GRÁFICO NA PLANILHA, É SÓ SELECIONAR TODAS AS TABELAS E IR EM INSERIR E GRÁFICO
-      
+---
 
+## 📊 Visualizando os Dados
 
+Para exibir um **gráfico na planilha**:
+1. Selecione todas as colunas da tabela.
+2. Vá em **Inserir → Gráfico**.
+3. Escolha o tipo de gráfico que melhor representa os dados coletados.
+
+---
+
+## ✅ Pronto!
+
+Seu projeto IoT está configurado e funcional!  
+A partir daqui, você poderá:
+- Registrar leituras do **RFID** diretamente na planilha;
+- Analisar os dados visualmente através dos gráficos;
+- Monitorar o comportamento do sistema em tempo real.
+
+---
+
+<p align="center">🚀 Desenvolvido com dedicação para o <b>Challenge IoT</b> da FIAP</p>
